@@ -63,7 +63,7 @@ python_bindings:
 
 # Clean up build files
 clean:
-	rm -rf $(BIN_DIR)/*.o $(BIN_DIR)/*_wrap.* $(BIN_DIR)/_hwfp.so $(LIB_DIR)/*.so $(TARGET)
+	rm -rf $(BIN_DIR)/*.o $(BIN_DIR)/*_wrap.* $(BIN_DIR)/_hwfp.so $(LIB_DIR)/*.so $(LIB_DIR)/*.a $(TARGET)
 
 .PHONY: all clean python_bindings
 
