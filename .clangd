@@ -1,0 +1,5 @@
+CompileFlags:
+  Add:
+    - "-I/usr/include"
+    - "-I/usr/include/x86_64-linux-gnu"
+    - "-Isrc/include"
